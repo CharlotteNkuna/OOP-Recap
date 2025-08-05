@@ -21,5 +21,5 @@ class Person2 {
         return(`Hi my name is ${this.name}, I am ${this.age} years old.`);
     }
 }
-let Pers = new Person2("Cjarlotte", 29)
+let Pers = new Person2("Charlotte", 29)
 console.log(Pers.talk());

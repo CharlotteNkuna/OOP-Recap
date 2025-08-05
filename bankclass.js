@@ -20,7 +20,7 @@ get balance() {
     return this.#balance; 
 } 
 } 
-const account = new BankAccount("Thomas"); 
+const account = new BankAccount("Charlotte"); 
 account.deposit(1000); 
 account.withdraw(500); 
 console.log(account.balance);
